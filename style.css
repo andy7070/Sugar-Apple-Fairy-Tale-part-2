@@ -48,6 +48,7 @@ background: #1a1a1a;}
 } 
 
 #animes li{
+    transition: 1s;
  list-style: none;
  color: white;
  font-size: 1rem;
@@ -293,7 +294,7 @@ background-color: greenyellow;}
 color: greenyellow;
 font-size: 1.3rem;
 padding: 0 10px;
-transform: rotateX(0deg);}
+transform: rotateX(180deg);}
 
 
 
