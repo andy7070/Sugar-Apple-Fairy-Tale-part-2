@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sugar Apple Fairy Tale part 2</title>
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript"  src="js.js" defer></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" defer></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js" defer></script>
 </head>
 <body>
     <header>
@@ -24,7 +28,9 @@
           <div>
             
               <ul id="animes">
-                <li>Animes<ion-icon name="chevron-down-outline" class="seta-menu" onclick="clickMenu2()"></ion-icon>
+                
+                    <li>Animes<ion-icon name="chevron-down-outline" class="seta-menu" onclick="clickMenu2()" id="teste1"></ion-icon>
+
                     <ul id="animes2">
                         <li><a href="#">Em lançamento</a></li>
                         <li><a href="#">Top Animes</a></li>
@@ -131,6 +137,25 @@
     </section>
 
     <section>
+           <div class="links-generos">
+                <h6><a href="#">Aventura</a></h6> <h6><a href="#">Fantasia</a></h6> <h6><a href="#">Romance</a></h6>
+           </div>
+
+           <div class="detalhes">
+              <ul>
+                <li>Temporada: verao <ion-icon class="ion" name="sunny-outline"></ion-icon></li>
+                <li>Estúdios: J.C.Staff</li>
+                <li>Áudio: Legendado</li>
+                <li>Episodios: ??</li>
+                <li>Status do Anime: Em lançamento</li>
+                <li>Dia  de Lançamento: Sexta-feira</li>
+                <li>Ano: jul 7, 2023</li>
+              </ul>              
+
+           </div>
+    </section>
+
+    <section>
         <div class="episodios">
             <ul class="ep-ep">
                 <li>Episodios<ion-icon name="chevron-down-outline" id="epseta" onclick="setaEp()"></ion-icon></li>
@@ -140,6 +165,8 @@
                    <li>Sugar Apple Fairy Tale part 2 episodio 3</li>
                    <li>Sugar Apple Fairy Tale part 2 episodio 4</li>
                    <li>Sugar Apple Fairy Tale part 2 episodio 5</li>
+                   <li>Sugar Apple Fairy Tale part 2 episodio 6</li>
+                   <li>Sugar Apple Fairy Tale part 2 episodio 7</li>
                 </ul>
         
             </ul>
@@ -154,10 +181,7 @@
 
 
 
-     <script type="text/javascript"  src="js.js"></script>
-
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
 
 <script src="js.js"></script>
 </body>
